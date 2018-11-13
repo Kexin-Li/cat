@@ -1,0 +1,66 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Avenir;
+  height: 100vh;
+  font-size: 16px;
+}
+
+/* The top half */
+.cat {
+  height: 50vh;
+  background: rgb(251, 150, 152);
+}
+
+.cat nav {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.cat nav div {
+  display: inline;
+  margin: 0 20px;
+  padding: 20px;
+  cursor: pointer;
+}
+.cat nav div:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.cat nav .jxos {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+/* The bottom half */
+main {
+  height: 50vh;
+  position: relative;
+}
+
+main div {
+  text-align: center;
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+main div p {
+  font-size: 14px;
+}
+
+main div .kitty {
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: .8mm;
+}
+
+main div .main-cat {
+  font-weight: 300;
+  font-size: 25px;
+  font-family: 'Great Vibes', cursive;
+  letter-spacing: .6mm;
+}
